@@ -9,9 +9,9 @@ const HomePage = () => {
     return (
 
         <div style={{backgroundColor: 'palegoldenrod'}}>
-            {
+            {/* {
                 currentUser ? <div>User logged in</div> : <div>Not logged in </div>
-            }
+            } */}
         </div>
     )
 }

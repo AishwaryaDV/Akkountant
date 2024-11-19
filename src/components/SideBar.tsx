@@ -33,6 +33,9 @@ const SideBar = () => {
                             [`&.active`]: {
                                 backgroundColor: '#13395e',
                                 color: '#b6c8d9',
+                                height:"100%",
+                                overflowY:"hidden"
+
                             },
                         },
                     }}

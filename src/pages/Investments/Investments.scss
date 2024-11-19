@@ -1,0 +1,47 @@
+.investmentContainer{
+    background-color: beige;
+    height:100vh;
+    overflow-y: auto;
+    padding:2rem;
+    margin-left:11rem;
+}
+.investmentHeader{
+    text-align: center;
+    font-weight:700;
+    font-size: 1.5rem;
+}
+.totalAssetDetails{
+    text-align: left;
+    border: 1px solid black;
+    width:fit-content;
+    margin-top:2rem;
+}
+.totalAssetValueTag{
+    font-size: 1.5rem;
+    font-weight:700;
+}
+.totalAssetValue{
+    font-size: 2.5rem;
+    font-weight:700;
+}
+.portfolioHeaderTag{
+    margin-top:2rem;
+    font-weight:700;
+    font-size:1.5rem;
+}
+.carouselSection{
+    border:1px solid black;
+    height:12rem;
+    margin-top:0.5rem;
+}
+.investmentOptionsSection{
+    margin-top:2rem;
+    display:inline;
+
+}
+.investmentOption{
+    display: inline;
+    height:2rem;
+    border: 1px solid black;
+    margin-right: 1rem;
+}
