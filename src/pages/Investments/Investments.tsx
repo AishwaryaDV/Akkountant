@@ -1,5 +1,6 @@
 import React from 'react';
 import "../Investments/Investments.scss";
+import { FaEye } from "react-icons/fa";
 
 const Investments = () => {
   return (
@@ -8,28 +9,54 @@ const Investments = () => {
         <div className="totalAssetDetails">
             <div className="totalAssetValueTag">Total asset value</div>
             <span className="totalAssetValue">Rs. 1200000</span>
-            <span className="watchlistIcon">Icon</span>
-            <div className="changeInValueSection"><span>2.35% (+1.50%)</span>from last week</div>
+            <span ><FaEye className="watchlistIcon" size={40}/></span>
+            <div className="changeInValueSection"><span className="changedPercentValue">2.35% (+1.50%)</span> from last week</div>
         </div>
         <div className="portfolioHeaderTag">My portfolio</div>
         <div className="carouselSection">
             Carousel cards
         </div>
+        <div className="sectorsHeader">Sectors</div>
         <div className="investmentOptionsSection">
-            <span className="investmentOption">
-                <span className="investmentIcon">Icon</span>
-                <span className="">Stocks</span>
-            </span>
-            <span className="investmentOption">Gold</span>
-            <span className="investmentOption">Mutual funds</span>
-            <span className="investmentOption">NPS</span>
-            <span className="investmentOption">PPF</span>
-            <span className="investmentOption">EPF</span>
-            <span className="investmentOption">Fixed deposits</span>
+            <div className="investmentOption">
+                <div className="investmentIcon"><FaEye size={35}/></div>
+                <div className="investmentType">Stocks</div>
+            </div>
+            <div className="investmentOption">
+                <div className="investmentIcon"><FaEye size={35}/></div>
+                <div className="investmentType">Stocks</div>
+            </div>
+            <div className="investmentOption">
+                <div className="investmentIcon"><FaEye size={35}/></div>
+                <div className="investmentType">Stocks</div>
+            </div>
+            <div className="investmentOption">
+                <div className="investmentIcon"><FaEye size={35}/></div>
+                <div className="investmentType">Stocks</div>
+            </div>
+            <div className="investmentOption">
+                <div className="investmentIcon"><FaEye size={35}/></div>
+                <div className="investmentType">Stocks</div>
+            </div>
+            <div className="investmentOption">
+                <div className="investmentIcon"><FaEye size={35}/></div>
+                <div className="investmentType">Stocks</div>
+            </div>
+            <div className="investmentOption">
+                <div className="investmentIcon"><FaEye size={35}/></div>
+                <div className="investmentType">Stocks</div>
+            </div>
+            
         </div>
-        <div>Watchlist</div>
+        <div className="watchlistHeader">Watchlist</div>
         <div className="watchlistContainer">
-            <div>Stock details</div>
+            <div className="watchlistOption">Stocks</div>
+            <div className="watchlistOption">Stocks</div>
+            <div className="watchlistOption">Stocks</div>
+            <div className="watchlistOption">Stocks</div>
+            <div className="watchlistOption">Stocks</div>
+            <div className="watchlistOption">Stocks</div>
+            <div className="watchlistOption">Stocks</div>
         </div>
     </div>
   )

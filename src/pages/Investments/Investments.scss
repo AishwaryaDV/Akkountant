@@ -1,9 +1,9 @@
 .investmentContainer{
     background-color: beige;
     height:100vh;
-    overflow-y: auto;
     padding:2rem;
     margin-left:11rem;
+    overflow-y: scroll;
 }
 .investmentHeader{
     text-align: center;
@@ -19,6 +19,7 @@
 .totalAssetValueTag{
     font-size: 1.5rem;
     font-weight:700;
+    color:grey;
 }
 .totalAssetValue{
     font-size: 2.5rem;
@@ -33,15 +34,65 @@
     border:1px solid black;
     height:12rem;
     margin-top:0.5rem;
+    margin-bottom:2rem;
+}
+
+.watchlistIcon{
+    vertical-align: middle;
+    margin-top:-1.1rem;
+    margin-left:1rem;
+    cursor: pointer;
+}
+.changeInValueSection{
+    font-weight: bold;
+    color:grey;
+}
+.changedPercentValue{
+    color:green;
+    font-size:1.3rem;
+    // color:red;
+}
+.clockIcon{
+    vertical-align: middle;
+}
+.sectorsHeader{
+    font-size:1.5rem;
+    font-weight:700;
+}
+.investmentIcon{
+    text-align: center;
+    border: 1px solid red;
+    padding:1rem;
+    border-radius: 50%;
 }
 .investmentOptionsSection{
-    margin-top:2rem;
-    display:inline;
-
+    display: flex;
+    flex-direction: row;
+    margin-top:1rem;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap:2rem;
+    margin-bottom: 2rem;;
 }
 .investmentOption{
-    display: inline;
-    height:2rem;
     border: 1px solid black;
-    margin-right: 1rem;
-}
+ }
+ .investmentType{
+    margin-top:0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+ }
+ .watchlistHeader{
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ .watchlistOption{
+    padding:2rem;
+    border: 1px solid black;
+    margin-bottom: 1rem;;
+ }
+ .watchlistContainer{
+    margin-top:1rem;
+    padding-bottom: 4rem;
+ }
