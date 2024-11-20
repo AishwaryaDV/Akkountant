@@ -62,20 +62,29 @@
 .investmentIcon{
     text-align: center;
     border: 1px solid red;
-    padding:1rem;
+    height:5rem;
+    width:5rem;
     border-radius: 50%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .investmentOptionsSection{
-    display: flex;
-    flex-direction: row;
     margin-top:1rem;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     gap:2rem;
-    margin-bottom: 2rem;;
 }
 .investmentOption{
     border: 1px solid black;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;    /* Center children horizontally */
+    justify-content: center; /* Optional: Center content vertically if needed */
+       /* Add padding for better spacing */
+    text-align: center;  
  }
  .investmentType{
     margin-top:0.5rem;
@@ -86,13 +95,51 @@
  .watchlistHeader{
     font-size: 1.5rem;
     font-weight: bold;
+    width: fit-content;
+    display: inline;
  }
  .watchlistOption{
-    padding:2rem;
+    padding:1rem;
     border: 1px solid black;
-    margin-bottom: 1rem;;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap:1rem;height:4rem;
  }
  .watchlistContainer{
     margin-top:1rem;
     padding-bottom: 4rem;
+ }
+ .watchlistIconSection{
+    padding:1rem;
+    border: 1px solid black;
+    flex:1;
+    border-radius: 50%;
+ }
+ .watchlistInvestmentNameSection{
+  text-align: left;
+    border: 1px solid black;
+    flex:11;
+    display: flex;
+    flex-direction: column;
+ }
+ .watchlistInvestmentValueSection{
+    padding:1rem;
+    border: 1px solid black;
+    flex:4;
+ }
+ .watchlistInvestmentName{
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ .lastUpadtedValue{
+    font-size:1.3rem;
+    color:green;
+    font-weight: 700;
+ }
+ .addWatchlistItem{
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: right;
  }
